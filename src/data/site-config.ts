@@ -38,69 +38,67 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Маринка пише',
+    subtitle: 'Власний куточок в інтернеті',
+    description: 'Сайт та блог Марини Зайцевої',
     image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: '',
+        alt: ''
     },
     headerNavLinks: [
         {
-            text: 'Home',
+            text: 'Додому',
             href: '/'
         },
         {
-            text: 'Projects',
-            href: '/projects'
-        },
-        {
-            text: 'Blog',
+            text: 'Блог',
             href: '/blog'
         },
         {
-            text: 'Tags',
+            text: 'Подкаст',
+            href: 'https://omw.marin-k-a.com'
+        },
+        {
+            text: 'Вірші та замальовки',
+            href: 'https://ink.marin-k-a.com'
+        },
+/*      {
+            text: 'Теги',
             href: '/tags'
+        }
+*/
+        {
+            text: 'Про мене',
+            href: '/about'
         }
     ],
     footerNavLinks: [
-        {
+/*        {
             text: 'About',
             href: '/about'
         },
-        {
-            text: 'Contact',
-            href: '/contact'
-        },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
+*/
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
-        },
-        {
             text: 'Instagram',
-            href: 'https://instagram.com/'
+            href: 'https://instagram.com/marin_k_a'
         },
         {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            text: 'Mastodon',
+            href: 'https://mastodon.social/@marin_k_a'
+        },
+        {
+            text: 'Bluesky',
+            href: 'https://bsky.app/profile/marin-k-a.com'
         }
     ],
-    hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
-        image: {
-            src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
+/*     hero: {
+   title: '',
+        text: "Привіт 👋 Мене звати Марина Зайцева.  "
+            image: {
+            src: '',
+            alt: ''
         },
         actions: [
             {
@@ -108,12 +106,14 @@ const siteConfig: SiteConfig = {
                 href: '/contact'
             }
         ]
-    },
-    subscribe: {
+
+    },*/
+ /*    subscribe: {
         title: 'Subscribe to Dante Newsletter',
         text: 'One update per week. All the latest posts directly in your inbox.',
         formUrl: '#'
-    },
+    }, 
+ */
     postsPerPage: 8,
     projectsPerPage: 8
 };
