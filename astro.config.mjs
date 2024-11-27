@@ -6,7 +6,7 @@ import tailwind from '@astrojs/tailwind';
 // https://astro.build/config
 export default defineConfig({
     site: 'https://marin-k-a.com',
-    outDir: 'dist',
+    outDir: 'docs',
     base: '/website/',
     integrations: [
         mdx(),
