@@ -1,7 +1,7 @@
 # build output
 dist/
 # generated types
-.astro/
+#.astro/
 
 # dependencies
 node_modules/
@@ -19,4 +19,5 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
+docs/CNAME
 docs/CNAME
