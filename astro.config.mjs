@@ -8,17 +8,6 @@ export default defineConfig({
     site: 'https://marin-k-a.com',
     base: '/',
     outDir: 'docs',
-    vite: {
-        build: {
-          rollupOptions: {
-            output: {
-              assetFileNames: 'assets/[name][extname]',
-              chunkFileNames: 'assets/[name].js',
-              entryFileNames: 'assets/[name].js',
-            },
-          },
-        },
-    },
     integrations: [
         mdx(),
         sitemap(),
