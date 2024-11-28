@@ -7,7 +7,7 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
     site: 'https://marin-k-a.com',
     base: '/',
-    outDir: 'docs',
+    outDir: 'dist',
     integrations: [
         mdx(),
         sitemap(),
