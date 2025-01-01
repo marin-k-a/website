@@ -41,10 +41,10 @@ const siteConfig: SiteConfig = {
     title: 'Маринка пише',
     subtitle: 'Власний куточок в інтернеті',
     description: 'Сайт та блог Марини Зайцевої',
-    image: {
+/*    image: {
         src: '',
         alt: ''
-    },
+    },*/
     headerNavLinks: [
         {
             text: 'Додому',
