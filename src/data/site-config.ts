@@ -85,10 +85,6 @@ const siteConfig: SiteConfig = {
             href: 'https://instagram.com/marin_k_a'
         },
         {
-            text: 'Mastodon',
-            href: 'https://mastodon.social/@marin_k_a'
-        },
-        {
             text: 'Bluesky',
             href: 'https://bsky.app/profile/marin-k-a.com'
         }
