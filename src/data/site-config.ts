@@ -83,10 +83,6 @@ const siteConfig: SiteConfig = {
         {
             text: 'Instagram',
             href: 'https://instagram.com/marin_k_a'
-        },
-        {
-            text: 'Bluesky',
-            href: 'https://bsky.app/profile/marin-k-a.com'
         }
     ],
 /*     hero: {
